@@ -7,8 +7,3 @@ my_sample_list = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12]
 # while some_variable_reference > 0:
 #     print(my_sample_list[some_variable_reference])
 #     chage after doing what we wanted, change the variables value so that the next pass it references the new index position
-last_index = len(my_sample_list) - 1
-
-#Iterar a través de la lista en orden inverso utilizando un bucle for y la función reversed()
-for i in reversed(range(len(my_sample_list))):
-    print(my_sample_list[i])
